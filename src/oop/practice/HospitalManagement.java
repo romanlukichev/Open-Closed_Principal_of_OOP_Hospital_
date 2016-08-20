@@ -8,6 +8,9 @@ public class HospitalManagement {
  public void callUpon(Employee employee){
      employee.performDuties();
  }
+     // another approach
+    // or we could have done employeeWork interface and add performDuties behavior there
+    // and have all our employees implement that interface.
 
 
 }
