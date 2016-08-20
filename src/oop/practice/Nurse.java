@@ -11,6 +11,23 @@ public class Nurse extends Employee {
         System.out.println("Nurse in action... "); // here println can be resolved.
     }
 
+    @Override
+    public void performDuties() {
+        checkVitalSigns();
+        drawBlood();
+        cleanPatientArea();
+    }
 
+    //Nurses
+    private void checkVitalSigns(){
+        System.out.println("Checking Vital Signs ... ");
+    }
+    private void drawBlood(){
+        System.out.println("Drawing Blood ... ");
+    }
+
+    private void cleanPatientArea(){
+        System.out.println("Checking Vital Signs ... ");
+    }
 }
 

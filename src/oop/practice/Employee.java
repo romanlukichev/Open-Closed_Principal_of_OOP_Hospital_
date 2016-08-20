@@ -1,10 +1,10 @@
 package oop.practice;
 
 
-/**
+/**    Editing it now
  * Created by Roman on 07.08.2016.
  */
-public class Employee {
+abstract public class Employee {
 
     private long id;
     private String name;
@@ -17,6 +17,10 @@ public class Employee {
         this.name = name;
         this.department = department;
     }
+
+
+    public abstract void performDuties();
+
 
     @Override
     public String toString() {
