@@ -8,8 +8,8 @@ public class Doctor extends Employee{
         super(working, id, name, department);
         System.out.println("Doctor in action...");
     }
-
-
+    // this is called a Strategy design pattern
+    // this pattern allows algorythm behavior to be selected at runtime
     private void prescribeMedicine(){
         System.out.println(" Prescribe Medicine ... ");
     }

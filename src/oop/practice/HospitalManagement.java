@@ -7,6 +7,11 @@ package oop.practice;
 public class HospitalManagement {
  public void callUpon(Employee employee){
      employee.performDuties();
+     // hospital management does not know the details of what the doctor does or the nurse does.
+     // their behavor is defined in hteir own class defenitions.
+
+     // this is called a Strategy design pattern
+     // this pattern allows algorythm behavior to be selected at runtime
  }
      // another approach
     // or we could have done employeeWork interface and add performDuties behavior there
