@@ -12,6 +12,7 @@ public class HospitalManagement {
 
      // this is called a Strategy design pattern
      // this pattern allows algorythm behavior to be selected at runtime
+     //
  }
      // another approach
     // or we could have done employeeWork interface and add performDuties behavior there
